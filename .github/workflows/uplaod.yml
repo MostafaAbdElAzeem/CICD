@@ -13,8 +13,9 @@ jobs:
       - name: Install cowsay
         run: |
           sudo apt-get update
-          sudo apt-get install cowsay -y
-
+          sudo apt-get install cowsay  -y
+      
+          
       - name: Execute script
         run: |
           chmod +x script.sh
