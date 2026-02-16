@@ -16,11 +16,11 @@ jobs:
           sudo apt-get install cowsay  -y
       
       - name: upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
             name: dragon-file
             path: dragon.txt
-            
+
       - name: Execute script
         run: |
           chmod +x script.sh
