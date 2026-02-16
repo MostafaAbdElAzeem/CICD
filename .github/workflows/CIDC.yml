@@ -1,0 +1,13 @@
+name: Hello
+
+on: 
+  push: main
+   
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: list files
+        run: ls -ltra
+      - name: run shell script
+        run : echo "Hello world"      
