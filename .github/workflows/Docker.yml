@@ -21,3 +21,4 @@ jobs:
           context: "."
           push: true
           tags: mostafazima11/app:latest
+          run: ls
