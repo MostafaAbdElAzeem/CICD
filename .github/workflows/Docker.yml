@@ -15,12 +15,11 @@ jobs:
           username: ${{ vars.USER }}
           password: ${{ secrets.PASS }}
       - name: ls
-        run: ls -ltra       
+        run: ls -lah       
       - name: Build and push Docker images
         uses: docker/build-push-action@v6.19.2          
         with:
           context: .
-          file: .
           push: true
           tags: mostafazima11/app:latest
           
