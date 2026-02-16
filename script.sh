@@ -1,10 +1,8 @@
 #!/bin/bash
 
-# Print camel ASCII
-/usr/games/cowsay -f camel "Run for cover, I am a Dragon... RAWR" >> dragon.txt
+COWPATH=/usr/share/cowsay/cows
 
-# Show file content
+/usr/games/cowsay -f $COWPATH/camel.cow "Run for cover, I am a Dragon... RAWR" >> dragon.txt
+
 cat dragon.txt
-
-# List directory files
 ls
