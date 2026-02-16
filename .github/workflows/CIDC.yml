@@ -1,8 +1,9 @@
 name: Hello
 
-on: 
-  push: main
-   
+on:
+  push:
+    branches:
+      - main   
 jobs:
   first_job:
     runs-on: ubuntu-latest
