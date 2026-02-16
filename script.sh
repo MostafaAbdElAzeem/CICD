@@ -1,3 +1,9 @@
 #!/bin/bash
 
-echo "hello world srcipt"
+echo "Run for cover, I am a Dragon... RAWR" >> dragon.txt
+
+grep -i "dragon" dragon.txt
+
+cat dragon.txt
+
+ls
