@@ -1,7 +1,0 @@
-name: matrix
-on:
-  push:
-    branches:
-      - main
-
-jobs:
